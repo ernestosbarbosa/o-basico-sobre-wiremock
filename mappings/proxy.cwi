@@ -1,0 +1,13 @@
+{
+    "priority": 5,
+    "request": {
+        "method": "ANY",
+        "urlPattern": "/.*"
+    },
+    "response": {
+        "proxyBaseUrl" : "https://cwi.com.br",
+        "additionalProxyRequestHeaders": {
+            "User-Agent": "Mozilla/5.0 (iPhone; U; CPU iPhone)"
+        }
+    }
+  }

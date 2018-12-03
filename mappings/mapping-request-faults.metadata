@@ -6,6 +6,22 @@
   },
   "response": {
     "status": 200,
+    //delay fixo
+    "fixedDelayMilliseconds": 2000,
+    //20ms+/-5ms
+    "delayDistribution": {
+      "type": "uniform",
+      "lower": 15,
+      "upper": 25
+    },
+    //delay por chunked
+    "chunkedDribbleDelay": {
+      "numberOfChunks": 5,
+      "totalDuration": 1000
+    },
+    //bad response
+    "fault": "MALFORMED_RESPONSE_CHUNK",
+
     "bodyFileName": "body-request-faults.json",
     "headers": {
       "Server": "Custom.com",

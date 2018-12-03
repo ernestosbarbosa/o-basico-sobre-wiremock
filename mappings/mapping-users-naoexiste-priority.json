@@ -1,7 +1,7 @@
 {
   "priority" : 1,
   "request" : {
-    "url" : "/users/esseusuarionaoexiste",
+    "url" : "/users/naoexiste",
     "method" : "GET"
   },
   "response" : {

@@ -6,12 +6,12 @@
       "xPathNamespaces": {
         "cli": "http://cliente.bean.master.sigep.bsb.correios.com.br/"
       },
-      "matchesXPath" : "//*/cep[text()='93022290']"
+      "matchesXPath" : "//*/cep"
     } ]
   },
   "response" : {
     "status" : 200,
-    "bodyFileName" : "body-consulta-cep-soap.xml",
+    "bodyFileName" : "body-consulta-cep-nao-existe-soap.xml",
     "headers" : {
       "Date" : "Mon, 20 Nov 2017 22:16:10 GMT",
       "X-OPNET-Transaction-Trace" : "a2_5d659ad7-aa77-4f5f-a8b0-6cc5ab81ac9d",
